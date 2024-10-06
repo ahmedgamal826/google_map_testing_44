@@ -29,6 +29,9 @@ class _CustomGoogleMapState extends State<CustomGoogleMap> {
 
   late GoogleMapController googleMapController;
   // Location location = Location();
+  // Location location = Location();
+
+  Location location = Location();
 
   Set<Marker> markers = {};
   Set<Polyline> polylines = {};
@@ -191,7 +194,7 @@ class _CustomGoogleMapState extends State<CustomGoogleMap> {
         ],
         fillColor: Colors.black.withOpacity(0.5),
         strokeWidth: 5,
-        strokeColor: Colors.red,
+        strokeColor: Colors.yellow,
         polygonId: const PolygonId('1'),
         points: const [
           LatLng(30.130462885505455, 31.45546337447619),
@@ -204,7 +207,7 @@ class _CustomGoogleMapState extends State<CustomGoogleMap> {
 
   void initCircle() {
     Circle sohagCircle = Circle(
-        fillColor: Colors.black.withOpacity(0.5),
+        fillColor: Colors.green.withOpacity(0.5),
         circleId: const CircleId('1'),
         center: const LatLng(27.112335044897335, 32.224511765470794),
         radius: 100000);

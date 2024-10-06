@@ -2,6 +2,11 @@
     package="com.example.quran_tutorial">
    <application
         android:label="google maps testing"
+
+
+
+
+
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
        <meta-data android:name="com.google.android.geo.API_KEY"
